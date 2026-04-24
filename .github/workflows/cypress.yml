@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check Cypress install
+      - name: Check Cypress version
         run: npx cypress --version
 
       - name: Verify Cypress
